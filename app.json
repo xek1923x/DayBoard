@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "DayBoard",
+    "slug": "dayboard",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.xek1923x.dayboard"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.xek1923x.dayboard"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b3502f27-0ae3-4083-98cd-8839f8d68ee8"
+      }
+    },
+    "owner": "xek1923x",
+    "updates": {
+      "url": "https://u.expo.dev/b3502f27-0ae3-4083-98cd-8839f8d68ee8"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
